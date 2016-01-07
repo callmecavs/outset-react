@@ -8,10 +8,7 @@ export default {
     extensions: ['', '.js', '.jsx', '.scss']
   },
 
-  entry: [
-    'webpack-hot-middleware/client',
-    './index.jsx'
-  ],
+  entry: './index.jsx',
 
   output: {
     filename: 'bundle.js',
@@ -23,10 +20,5 @@ export default {
       { test: /\.jsx$/, loaders: ['babel-loader'], exclude: /node_modules/ },
       { test: /\.scss$/, loaders: ['style', 'css', 'sass'] }
     ]
-  },
-
-  plugins: [
-    new webpack.HotModuleReplacementPlugin(),
-    new webpack.NoErrorsPlugin()
-  ]
+  }
 }

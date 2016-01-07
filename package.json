@@ -28,7 +28,6 @@
     "sass-loader":             "*",
     "style-loader":            "*",
     "webpack":                 "*",
-    "webpack-dev-server":      "*",
-    "webpack-hot-middleware":  "*"
+    "webpack-dev-server":      "*"
   }
 }
