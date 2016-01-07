@@ -17,7 +17,7 @@ export default {
 
   module: {
     loaders: [
-      { test: /\.jsx$/, loaders: ['babel-loader'], exclude: /node_modules/ },
+      { test: /\.jsx$/, loaders: ['babel'], exclude: /node_modules/ },
       { test: /\.scss$/, loaders: ['style', 'css', 'sass'] }
     ]
   }
