@@ -4,21 +4,29 @@ import webpack from 'webpack'
 export default {
   context: path.join(__dirname, './client'),
 
-  entry: './index.jsx',
+  resolve: {
+    extensions: ['', '.js', '.jsx', '.scss']
+  },
+
+  entry: [
+    'webpack-hot-middleware/client',
+    './index.jsx'
+  ],
 
   output: {
     filename: 'bundle.js',
     path: path.join(__dirname, './build')
   },
 
-  resolve: {
-    extensions: ['', '.js', '.jsx', '.scss']
-  },
-
   module: {
     loaders: [
-      { test: /\.jsx$/, loaders: ['react-hot', 'babel-loader'], exclude: /node_modules/ },
+      { test: /\.jsx$/, loaders: ['babel-loader'], exclude: /node_modules/ },
       { test: /\.scss$/, loaders: ['style', 'css', 'sass'] }
     ]
-  }
+  },
+
+  plugins: [
+    new webpack.HotModuleReplacementPlugin(),
+    new webpack.NoErrorsPlugin()
+  ]
 }

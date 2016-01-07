@@ -18,17 +18,17 @@
   },
 
   "devDependencies": {
-    "babel-core":             "*",
-    "babel-loader":           "*",
-    "babel-preset-es2015":    "*",
-    "babel-preset-react":     "*",
-    "babel-preset-stage-0":   "*",
-    "css-loader":             "*",
-    "react-hot-loader":       "*",
-    "sass-loader":            "*",
-    "style-loader":           "*",
-    "webpack":                "*",
-    "webpack-dev-server":     "*",
-    "webpack-hot-middleware": "*"
+    "babel-core":              "*",
+    "babel-loader":            "*",
+    "babel-preset-es2015":     "*",
+    "babel-preset-react":      "*",
+    "babel-preset-react-hmre": "*",
+    "babel-preset-stage-0":    "*",
+    "css-loader":              "*",
+    "sass-loader":             "*",
+    "style-loader":            "*",
+    "webpack":                 "*",
+    "webpack-dev-server":      "*",
+    "webpack-hot-middleware":  "*"
   }
 }
