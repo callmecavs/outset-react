@@ -1,8 +1,8 @@
 # outset-react
 
-A boilerplate for React libraries, built with webpack.
-
 [![outset-react on NPM](https://img.shields.io/npm/v/outset-react.svg)](https://www.npmjs.com/package/outset-react)
+
+A boilerplate for React libraries, built with webpack.
 
 ## Install
 
