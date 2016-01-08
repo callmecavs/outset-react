@@ -1,33 +1,34 @@
 {
-  "name": "",
-  "version": "1.0.0",
-  "description": "",
-  "author": "",
-  "license": "",
+  "name":        "outset-react",
+  "version":     "0.0.1",
+  "description": "A boilerplate for React libraries, built with webpack.",
+  "homepage":    "https://github.com/callmecavs/outset-react",
 
-  "scripts": {
-    "start": "webpack-dev-server --hot --port 3000 --colors --inline --progress --content-base client/ --history-api-fallback",
-    "build": "NODE_ENV=production webpack -p"
+  "author":  "callmecavs",
+  "license": "MIT",
+
+  "bin": {
+    "outset-react": "outset-react.js"
   },
+
+  "repository": {
+    "type": "git",
+    "url":  "https://github.com/callmecavs/outset-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/callmecavs/outset-react/issues"
+  },
+
+  "keywords": [
+    "boilerplate",
+    "react",
+    "webpack",
+    "es6"
+  ],
+
+  "preferGlobal": true,
 
   "dependencies": {
-    "history":      "*",
-    "react":        "*",
-    "react-dom":    "*",
-    "react-router": "*"
-  },
-
-  "devDependencies": {
-    "babel-core":              "*",
-    "babel-loader":            "*",
-    "babel-preset-es2015":     "*",
-    "babel-preset-react":      "*",
-    "babel-preset-react-hmre": "*",
-    "babel-preset-stage-0":    "*",
-    "css-loader":              "*",
-    "sass-loader":             "*",
-    "style-loader":            "*",
-    "webpack":                 "*",
-    "webpack-dev-server":      "*"
+    "fs-extra": "^0.14.0"
   }
 }
