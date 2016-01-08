@@ -9,7 +9,7 @@ A boilerplate for React libraries, built with webpack.
 This boilerplate provides:
 
 * ES6/7 transpiling via [Babel.js](http://babeljs.io/)
-* Hot reloading via [https://github.com/gaearon/babel-plugin-react-transform](https://github.com/gaearon/babel-plugin-react-transform)
+* Hot reloading via [babel-plugin-react-transform](https://github.com/gaearon/babel-plugin-react-transform)
 * A simple server [webpack-dev-server](https://github.com/webpack/webpack-dev-server) configuration
 
 ## Install
