@@ -1,6 +1,6 @@
 {
   "name":        "outset-react",
-  "version":     "2.0.0",
+  "version":     "2.1.0",
   "description": "A boilerplate for React libraries, built with webpack.",
   "homepage":    "https://github.com/callmecavs/outset-react",
 

@@ -11,10 +11,9 @@
   },
 
   "dependencies": {
-    "history":      "*",
     "react":        "*",
     "react-dom":    "*",
-    "react-router": "*"
+    "react-router": "^2.0.0-rc4",
   },
 
   "devDependencies": {
