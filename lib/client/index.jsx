@@ -1,25 +1,11 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import { render } from 'react-dom'
 import { Router, Route, Link, browserHistory } from 'react-router'
 
-class App extends React.Component {
-  constructor(props) {
-    super(props)
+import Main from './components/main'
 
-    this.state = {
-
-    }
-  }
-
-  render() {
-    return (
-      <h1>outset-react</h1>
-    )
-  }
-}
-
-ReactDOM.render((
+render((
   <Router history={ browserHistory }>
-    <Route path="/" component={ App }/>
+    <Route path="/" component={ Main }/>
   </Router>
 ), document.getElementById('root'))
