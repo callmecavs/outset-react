@@ -24,6 +24,7 @@
     "babel-preset-react-hmre": "*",
     "babel-preset-stage-0":    "*",
     "css-loader":              "*",
+    "node-sass":               "*",
     "sass-loader":             "*",
     "style-loader":            "*",
     "webpack":                 "*",
